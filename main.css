@@ -70,3 +70,19 @@ header {
     background-image: url('landscape.webp');
     background-size: cover;
 }
+
+footer {
+    display: flex;
+    flex: 1;
+    padding: 50px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer .first-div {
+    margin-bottom: 25px;
+}

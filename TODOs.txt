@@ -1,0 +1,13 @@
+
+
+1. switch to em & make responsive 
+
+
+--------------
+
+
+2. add services
+
+3. add 3 column section
+
+4. add nav with anchors
