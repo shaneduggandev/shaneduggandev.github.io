@@ -1,0 +1,56 @@
+html, body {
+    flex: 1;
+    /* background-color: black; */
+    margin: 0;
+}
+
+header {
+    padding: 25px;
+    font-size: 24px;
+    border-bottom: 1px solid;
+}
+
+#section-one {
+    padding: 100px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('beach.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#section-one #text {
+    z-index: 1;
+    color: white;
+}
+
+#section-one li {
+    line-height: 30px;
+}
+
+#section-two {
+    display: flex;
+    padding: 50px 25px;
+    background-color:rgb(219, 200, 190);
+}
+
+#section-two .column {
+    display: flex;
+    flex: 1;
+    height: 500px;
+}
+
+#section-two .seperator {
+    width: 25px;
+}
+
+#section-two .column-one {
+    background-color: black;
+}
+
+#section-two .column-two {
+    background-color: green;
+}

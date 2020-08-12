@@ -1,0 +1,20 @@
+.title {
+    font-size: 48px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+.layer {
+    background-color: rgba(0,0,0,.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
