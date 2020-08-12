@@ -33,14 +33,14 @@ header {
 
 #section-two {
     display: flex;
-    padding: 50px 25px;
+    padding: 80px;
     background-color:rgb(219, 200, 190);
 }
 
 #section-two .column {
     display: flex;
     flex: 1;
-    height: 500px;
+    height: 700px;
 }
 
 #section-two .seperator {
@@ -48,9 +48,25 @@ header {
 }
 
 #section-two .column-one {
-    background-color: black;
+    background-color:rgb(30, 32, 37);
+    /* padding: 100px 50px; */
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    line-height: 2;
+    align-items: center;
+}
+
+#section-two .column-one .title {
+    color:rgb(219, 200, 190);
+}
+
+#section-two .column-one .text {
+    width: 90%;
 }
 
 #section-two .column-two {
-    background-color: green;
+    /* background-color: green; */
+    background-image: url('landscape.webp');
+    background-size: cover;
 }
