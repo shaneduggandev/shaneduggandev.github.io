@@ -1,23 +1,34 @@
-html, body {
-    flex: 1;
-    /* background-color: black; */
-    margin: 0;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+/* default is 10px */
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  box-sizing: border-box; 
 }
 
 header {
-    padding: 25px;
-    font-size: 24px;
+    padding: 2.5rem;
+    font-size: 2.4rem;
     border-bottom: 1px solid;
 }
 
 #section-one {
-    padding: 100px;
-    min-height: 500px;
+    padding: 10rem;
+    min-height: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('beach.jpg');
+    background-image: url('../assets/beach.jpg');
     background-size: cover;
     position: relative;
 }
@@ -28,33 +39,35 @@ header {
 }
 
 #section-one li {
-    line-height: 30px;
+    line-height: 3rem;
+    font-size: 1.6rem;
 }
 
 #section-two {
     display: flex;
-    padding: 80px;
+    padding: 8rem;
     background-color:rgb(219, 200, 190);
 }
 
 #section-two .column {
     display: flex;
     flex: 1;
-    height: 700px;
+    min-height: 70rem;
+    padding-bottom: 2.5rem;
 }
 
 #section-two .seperator {
-    width: 25px;
+    width: 2.5rem;
 }
 
 #section-two .column-one {
     background-color:rgb(30, 32, 37);
-    /* padding: 100px 50px; */
     color: white;
     text-align: center;
     flex-direction: column;
     line-height: 2;
     align-items: center;
+    font-size: 1.6rem;
 }
 
 #section-two .column-one .title {
@@ -66,23 +79,23 @@ header {
 }
 
 #section-two .column-two {
-    /* background-color: green; */
-    background-image: url('landscape.webp');
+    background-image: url('../assets/landscape.webp');
     background-size: cover;
 }
 
 footer {
     display: flex;
     flex: 1;
-    padding: 50px;
+    padding: 5rem;
     background-color: black;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
     flex-direction: column;
+    font-size: 1.6rem;
 }
 
 footer .first-div {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
